@@ -1,0 +1,76 @@
+$date
+    Advanced VLSI CNN project generated waveform
+$end
+$version
+    Educational VCD for conv3x3_core
+$end
+$timescale 1ns $end
+$scope module tb_conv3x3_core $end
+$var wire 1 ! clk $end
+$var wire 1 " rst_n $end
+$var wire 1 # valid_in $end
+$var wire 1 $ valid_out $end
+$var wire 8 % data_out [7:0] $end
+$var wire 24 & acc_debug [23:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+0"
+0#
+0$
+b00000000 %
+b000000000000000000000000 &
+#5
+1!
+#10
+0!
+#15
+1!
+#20
+0!
+#25
+1!
+1"
+#30
+0!
+#35
+1!
+1#
+#40
+0!
+#45
+1!
+1$
+b00110000 %
+b000000000000001100000000 &
+#50
+0!
+#55
+1!
+b00000000 %
+b000000000000000000000000 &
+#60
+0!
+#65
+1!
+b00000000 %
+b111111111111110100000000 &
+#70
+0!
+#75
+1!
+0#
+b01100000 %
+b000000000000011000000000 &
+#80
+0!
+#85
+1!
+0$
+#90
+0!
+#95
+1!
+#100
+0!

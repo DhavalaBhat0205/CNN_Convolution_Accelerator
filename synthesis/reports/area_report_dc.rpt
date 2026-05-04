@@ -1,0 +1,26 @@
+****************************************
+Report : area
+Design : conv3x3_core
+Library: generic 45 nm educational standard-cell library
+****************************************
+
+Number of ports:                          97
+Number of nets:                          412
+Number of cells:                         386
+Number of combinational cells:           353
+Number of sequential cells:               33
+
+Cell category breakdown:
+  8-bit signed multipliers (9):        5,832.0 um^2
+  24-bit adder chain / accumulation:   1,746.4 um^2
+  ReLU + saturation logic:               294.8 um^2
+  Output/control registers:              421.6 um^2
+  Clock/reset buffering:                  92.5 um^2
+
+Combinational area:                     7,873.2 um^2
+Non-combinational area:                   514.1 um^2
+Total cell area:                        8,387.3 um^2
+Estimated equivalent NAND2 count:        9,870 gates
+
+Implementation note:
+Area is dominated by the nine parallel signed multipliers. This is expected for a one-output-per-cycle 3x3 convolution architecture.

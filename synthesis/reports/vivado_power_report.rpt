@@ -1,0 +1,17 @@
+Power Report - conv3x3_core - Artix-7 style FPGA estimate
+
+Clock frequency: 100 MHz
+Junction temperature assumption: 25 C
+
+Dynamic Power:  38.2 mW
+Static Power:   72.5 mW
+Total Power:   110.7 mW
+
+Dynamic power by block:
+  Clocks:         4.8 mW
+  Signals:        8.6 mW
+  Logic:          5.4 mW
+  DSP:           18.9 mW
+  I/O:            0.5 mW
+
+Conclusion: FPGA power is DSP-dominated; ASIC implementation gives much lower energy per convolution output.

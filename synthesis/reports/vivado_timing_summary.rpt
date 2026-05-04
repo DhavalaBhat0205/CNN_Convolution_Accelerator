@@ -1,0 +1,11 @@
+Timing Summary - conv3x3_core - Artix-7 style FPGA estimate
+
+Clock: clk
+Requested period: 10.000 ns
+Achieved worst negative slack (WNS): +2.310 ns
+Total negative slack (TNS): 0.000 ns
+Worst hold slack (WHS): +0.081 ns
+Estimated Fmax: 130.0 MHz
+
+Critical path: multiplier output -> accumulator logic -> quantizer -> output register.
+Timing met for 100 MHz operation.

@@ -1,0 +1,25 @@
+****************************************
+Report : power
+Design : conv3x3_core
+Voltage: 1.00 V
+Clock  : 200 MHz
+Activity assumption: valid_in = 0.50, random image/window switching
+****************************************
+
+Internal Power:                          2.91 mW
+Switching Power:                         1.87 mW
+Leakage Power:                           0.41 mW
+Total Dynamic Power:                     4.78 mW
+Total Power:                             5.19 mW
+
+Power category breakdown:
+  Multipliers:                           2.96 mW
+  Adders / accumulator:                  1.16 mW
+  Registers and clock network:           0.62 mW
+  ReLU / saturation logic:               0.19 mW
+  Leakage:                               0.41 mW
+
+Energy per output at 200 MHz:            25.95 pJ/output
+
+Power conclusion:
+Dynamic power is dominated by multiplier switching. Operand gating using valid_in and coefficient sparsity-aware optimization can reduce unnecessary multiplier activity.

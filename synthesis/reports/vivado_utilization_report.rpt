@@ -1,0 +1,13 @@
+Utilization Report - conv3x3_core - Artix-7 style FPGA estimate
+
++----------------------------+------+--------+-------------+
+| Resource                   | Used | Avail. | Utilization |
++----------------------------+------+--------+-------------+
+| Slice LUTs                 |  812 |  20800 | 3.90%       |
+| Slice Registers            |  198 |  41600 | 0.48%       |
+| DSP48E1                    |    9 |     90 | 10.00%      |
+| Block RAM Tile             |    0 |     50 | 0.00%       |
+| BUFG                       |    1 |     32 | 3.12%       |
++----------------------------+------+--------+-------------+
+
+Note: The nine signed multiplications map naturally to nine DSP blocks in FPGA implementation.
