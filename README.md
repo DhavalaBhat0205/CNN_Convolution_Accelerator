@@ -1,5 +1,7 @@
 # CNN Convolution Accelerator
 
+**By: Dhavala Bhat**
+
 This repository contains a complete open-ended Advanced VLSI design project: a fixed-point 3x3 CNN convolution accelerator implemented in Verilog. The project follows the same evaluation style as the FIR filter course project: algorithm modeling, coefficient/data quantization, RTL architecture, waveform verification, hardware implementation results, and final analysis.
 
 ## Project Objective
